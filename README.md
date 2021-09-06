@@ -4,7 +4,7 @@ helps you fetch xivapi HR icons
 written for python 3.9
 
 ## Example Usage
-python3 xivapi.py "Fire II"
+`python3 xivapi.py "Fire II"`
 
 ```
 index_search executed in 0.23s
