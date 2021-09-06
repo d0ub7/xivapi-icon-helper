@@ -2,10 +2,8 @@ import asyncio
 import logging
 import argparse
 
-import aiohttp
-
 import pyxivapi
-from pyxivapi.models import Filter, Sort
+from pyxivapi.models import Filter
 
 # ADD YOUR API KEY HERE
 API_KEY = ""
