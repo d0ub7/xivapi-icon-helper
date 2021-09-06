@@ -25,10 +25,8 @@ async def fetch_example_results():
             ],
             string_algo="match"
         )
-
-    for item in action['Results']:
-        for k, v in item.items():
-            print (v.replace("/i/", URL_PREFIX))
+    print("\n====")
+    print(f"![{action['Results'][0]['Name']}]({action['Results'][0]['IconHD'].replace('/i/', URL_PREFIX)})")
     await client.session.close()
 
 if __name__ == '__main__':
