@@ -3,6 +3,19 @@ helps you fetch xivapi HR icons
 
 written for python 3.9
 
+
+
+## Install instructions
+
+prerequisites: **git** and **Python3**
+
+download `xivapi.py`
+open a command prompt in the directory containing `xivapi.py`
+
+```
+pip install pyxivapi
+```
+
 ## Example Usage
 `python3 xivapi.py "Fire II"`
 
@@ -27,16 +40,5 @@ Fire II
 https://xivapi.com/i/000000/000405_hr1.png
 Fire II
 https://xivapi.com/i/000000/000405_hr1.png
-Fire II```
-
-## Install instructions
-
-prerequisites: **git** and **Python3**
-
-download `xivapi.py`
-open a command prompt in that directory
-
-```
-pip install pyxivapi
-python xivapi.py "Name of Spell"
+Fire II
 ```
